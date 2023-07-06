@@ -230,7 +230,7 @@ export default function CommunityGuidelines() {
               1. Create an insightful, transparent and genuine Company Profile.
             </h3>
             <span>
-              Your company profile gives candidates an insight into what it’s
+              Your company profile gives candidates an insight into what it&apos;s
               like working for your company by allowing them to have a closer
               look at your people, culture and work environment.
               <br></br>
@@ -246,8 +246,8 @@ export default function CommunityGuidelines() {
                   Provide complete and accurate information such as in respect
                   of your nature of business, address, website, benefits, etc.
                 </li>
-                <li>Be honest about your company’s vision and mission.</li>
-                <li>Use updated photos of your company’s workspace.</li>
+                <li>Be honest about your company&apos;s vision and mission.</li>
+                <li>Use updated photos of your company&apos;s workspace.</li>
               </ul>
               DO NOT:
               <ul>
