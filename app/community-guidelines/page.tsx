@@ -4,9 +4,9 @@ export default function CommunityGuidelines() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <section>
-        <div>
+        <header>
           <h1>Community Guidelines</h1>
-        </div>
+        </header>
         <div>
           <div>
             <p>
