@@ -130,10 +130,10 @@ export default function CommunityGuidelines() {
               <br></br>
               <br></br>
               For example, if you want to upload your resume in another
-              language, you must at least ensure that you&apos;ve presented all the
-              same information in English too — in the same document with page 1
-              is in English and page 2 is all the same information in Bahasa
-              Melayu.
+              language, you must at least ensure that you&apos;ve presented all
+              the same information in English too — in the same document with
+              page 1 is in English and page 2 is all the same information in
+              Bahasa Melayu.
             </p>
 
             <h3>5. Apply for jobs responsibly.</h3>
@@ -229,9 +229,9 @@ export default function CommunityGuidelines() {
               1. Create an insightful, transparent and genuine Company Profile.
             </h3>
             <span>
-              Your company profile gives candidates an insight into what it&apos;s
-              like working for your company by allowing them to have a closer
-              look at your people, culture and work environment.
+              Your company profile gives candidates an insight into what
+              it&apos;s like working for your company by allowing them to have a
+              closer look at your people, culture and work environment.
               <br></br>
               DO:
               <br></br>
@@ -299,9 +299,9 @@ export default function CommunityGuidelines() {
               their full potential based on their aptitudes and merits, not
               their identity. As such, we have guidelines for all content
               featured on our platform, which are detailed within our&nbsp;
-              <Link href="/">Terms & Conditions</Link>. We
-              treat any breach of our policies or procedures seriously and will
-              remove any content that does not comply with these guidelines.
+              <Link href="/">Terms & Conditions</Link>. We treat any breach of
+              our policies or procedures seriously and will remove any content
+              that does not comply with these guidelines.
               <br></br>
               <br></br>
               Hiredly strongly values the unique spirit of diversity and unity
@@ -338,10 +338,10 @@ export default function CommunityGuidelines() {
           <article>
             <p>
               By using Hiredly, you agree to our guidelines and&nbsp;
-              <Link href="/">Terms of Use</Link>. We are
-              committed to these guidelines and we hope you will adhere to them.
-              Misconduct on Hiredly may result in accounts being disabled or
-              other restrictions.
+              <Link href="/">Terms of Use</Link>. We are committed to these
+              guidelines and we hope you will adhere to them. Misconduct on
+              Hiredly may result in accounts being disabled or other
+              restrictions.
               <br></br>
               Thank you for helping us create the best platform for job seekers
               and employers to find each other.
