@@ -8,7 +8,7 @@ export default function CommunityGuidelines() {
           <h1>Community Guidelines</h1>
         </header>
         <div>
-          <div>
+          <article>
             <p>
               Hiredly is the job discovery platform that helps job seekers make
               the right move at any point in their career. With some cooperation
@@ -19,8 +19,8 @@ export default function CommunityGuidelines() {
               We&apos;ve created these Community Guidelines so you can help us
               nurture and protect this amazing community.
             </p>
-          </div>
-          <div>
+          </article>
+          <section>
             {/* ====== Job Seeker Guidelines ====== */}
             <h2>Community Guidelines for Job Seekers</h2>
             <p>
@@ -334,8 +334,8 @@ export default function CommunityGuidelines() {
               Hiredly is a platform that will not support any illegal practices
               or businesses.
             </p>
-          </div>
-          <div>
+          </section>
+          <article>
             <p>
               By using Hiredly, you agree to our guidelines and&nbsp;
               <Link href="/">Terms of Use</Link>. We are
@@ -348,7 +348,7 @@ export default function CommunityGuidelines() {
               <br></br>
             </p>
             <p>The Hiredly team.</p>
-          </div>
+          </article>
         </div>
       </section>
     </main>
