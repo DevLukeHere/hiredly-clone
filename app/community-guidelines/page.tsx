@@ -1,10 +1,9 @@
-import { Fragment } from "react";
 import Link from "next/link";
 
 export default function CommunityGuidelines() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Fragment>
+      <section>
         <div>
           <h1>Community Guidelines</h1>
         </div>
@@ -351,7 +350,7 @@ export default function CommunityGuidelines() {
             <p>The Hiredly team.</p>
           </div>
         </div>
-      </Fragment>
+      </section>
     </main>
   );
 }
