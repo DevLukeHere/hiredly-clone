@@ -14,13 +14,14 @@ module.exports = {
       desktop: "1280px",
       "desktop-wide": "1536px",
     },
-    colors: {
-      primary: "#222222",
-      secondary: "#512acc",
-      tertiary: "#ffffff",
-      "background-grey": "#f5f5f5",
+    extend: {
+      colors: {
+        primary: "#222222",
+        secondary: "#512acc",
+        tertiary: "#ffffff",
+        "background-grey": "#f5f5f5",
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
