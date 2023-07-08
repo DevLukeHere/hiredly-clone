@@ -1,6 +1,6 @@
 export default function AppBar() {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-primary p-6">
+    <nav className="sticky top-0 flex items-center justify-between flex-wrap bg-primary p-6">
       <div className="flex items-center flex-shrink-0 text-tertiary mr-6">
         <svg
           className="fill-current h-8 w-8 mr-2"
