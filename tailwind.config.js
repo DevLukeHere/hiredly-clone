@@ -13,6 +13,7 @@ module.exports = {
         secondary: "#512acc",
         tertiary: "#ffffff",
         "background-grey": "#f5f5f5",
+        "disabled-grey": "#d8d8d8",
       },
       screens: {
         mobile: "640px",
