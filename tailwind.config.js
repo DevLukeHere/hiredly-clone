@@ -14,6 +14,10 @@ module.exports = {
         tertiary: "#ffffff",
         "background-grey": "#f5f5f5",
         "disabled-grey": "#d8d8d8",
+        "hover-purple": "#40249b",
+        "button-black": "#2e2e2e",
+        "button-green": "#6ec197",
+        "hover-green": "#37b074",
       },
       screens: {
         mobile: "640px",
