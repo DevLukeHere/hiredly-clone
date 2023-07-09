@@ -1,6 +1,12 @@
 import useSWR from "swr";
 import { request } from "graphql-request";
 
+// interface dataType {
+//   job: {
+//     gptSummary: string;
+//   }
+// }
+
 const fetcher = (query: string) =>
   request(
     "https://staging-wobbjobs.hiredly.com/api/job_seeker/v1/graphql",
@@ -10,7 +16,7 @@ const fetcher = (query: string) =>
 export function useJob(id: string) {
   const { data, error, isLoading } = useSWR(
     `{
-      job(id: ${id}) {
+      job(id: "${id}") {
         active
         activeAt
         bookmark
@@ -30,32 +36,9 @@ export function useJob(id: string) {
           lastActiveAt
           logo
           name
-          profile {
-            address
-            descriptions {
-              body
-              title
-            }
-            extras {
-              title
-              vimeo
-            }
-            images {
-              cover
-              image
-            }
-            videos {
-              category
-              personName
-              personPosition
-              quote
-              title
-              vimeoId
-            }
-          }
           registerName
           shortDescription
-          sizeid
+          sizeId
           slug
           typeId
         }
@@ -96,9 +79,11 @@ export function useJob(id: string) {
     }`,
     fetcher,
   );
-
+  
   return {
-    job: data,
+    // TODO: Declare type for job response
+    // @ts-ignore
+    job: data?.job,
     isLoading,
     isError: error,
   };
