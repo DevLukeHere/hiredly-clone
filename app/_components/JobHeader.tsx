@@ -38,10 +38,11 @@ export default function JobHeader() {
         <div className="grid grid-rows-2 gap-4 items-center justify-items-center laptop:grid-cols-[1fr_auto] laptop:gap-5 laptop:grid-rows-none laptop:justify-items-start">
           <div className="flex items-center gap-2">
             <Image
-              alt="Company Logo"
+              alt="company logo"
               src={`https:${job?.company?.logo}`}
               width={70}
               height={70}
+              loading="eager"
               className="shadow-2xl rounded-lg"
             />
 
