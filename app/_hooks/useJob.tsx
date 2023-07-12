@@ -1,12 +1,6 @@
 import useSWR from "swr";
 import { request } from "graphql-request";
 
-// interface dataType {
-//   job: {
-//     gptSummary: string;
-//   }
-// }
-
 const fetcher = (query: string) =>
   request(
     "https://staging-wobbjobs.hiredly.com/api/job_seeker/v1/graphql",
