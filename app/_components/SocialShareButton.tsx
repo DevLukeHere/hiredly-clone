@@ -1,12 +1,12 @@
 import ShareIcon from "@heroicons/react/24/outline/ShareIcon";
 
-interface ShareButtonProps {
+interface SocialShareButtonProps {
   disabled: boolean;
   id?: string;
   onClick?: any; // TODO: Declare proper type for functions
 }
 
-export default function ShareButton(props: ShareButtonProps) {
+export default function SocialShareButton(props: SocialShareButtonProps) {
   const { disabled, id, onClick } = props;
 
   return (

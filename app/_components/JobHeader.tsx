@@ -2,7 +2,7 @@
 
 import ApplyJobButton from "@/app/_components/ApplyJobButton";
 import BookmarkButton from "@/app/_components/BookmarkButton";
-import ShareButton from "@/app/_components/ShareButton";
+import SocialShareButton from "@/app/_components/SocialShareButton";
 import Image from "next/image";
 import Link from "next/link";
 import { useJob } from "../_hooks/useJob";
@@ -65,7 +65,7 @@ export default function JobHeader() {
               onClick={handleClick}
             />
             <BookmarkButton disabled={false} />
-            <ShareButton disabled={false} />
+            <SocialShareButton disabled={false} />
           </div>
         </div>
       )}
