@@ -11,6 +11,7 @@ export default function AboutUs() {
           <p className="text-tertiary text-sm opacity-100 text-center">Engineer turned programmer. 10% movie addict, 20% matcha devotee, 15% anime fanatic, 5% gym buff, 50% gaming nerd & a 100% tech enthusiast!</p>
         </div>
       </div>
+      
       <div className="relative">
         <Image className="rounded-lg" alt="Hiro Luke image" src={"https://assets.wobbjobs.com/images/about_us/hiroes-2022/luke.jpg"} priority placeholder="blur" blurDataURL={blurDataURL} width={220} height={220} loading="eager" quality={10} />
         <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-primary bg-fixed rounded-lg opacity-0 transition duration-300 ease-in-out hover:opacity-50">
