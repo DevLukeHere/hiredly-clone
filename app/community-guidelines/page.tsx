@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function CommunityGuidelines() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <section>
+    <section className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div>
         <header>
           <h1>Community Guidelines</h1>
         </header>
@@ -350,7 +350,7 @@ export default function CommunityGuidelines() {
             <p>The Hiredly team.</p>
           </article>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
   );
 }
