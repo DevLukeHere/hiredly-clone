@@ -9,7 +9,7 @@ export default function NavBar() {
             width={32}
             height={32}
             src="https://flowbite.com/docs/images/logo.svg"
-            className="mr-3"
+            className="w-auto h-auto mr-3"
             alt="Flowbite Logo"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -100,9 +100,9 @@ export default function NavBar() {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M1 1h15M1 7h15M1 13h15"
               />
             </svg>

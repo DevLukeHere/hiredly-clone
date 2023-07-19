@@ -10,7 +10,7 @@ export default function Footer() {
             <Link href="https://flowbite.com/" className="flex items-center">
               <Image
                 src="https://flowbite.com/docs/images/logo.svg"
-                className="h-8 mr-3"
+                className="w-auto h-auto mr-3"
                 alt="FlowBite Logo"
                 width={32}
                 height={32}
