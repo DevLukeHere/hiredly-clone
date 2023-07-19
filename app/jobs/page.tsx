@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useJobs } from "../_hooks/useJobs";
 
