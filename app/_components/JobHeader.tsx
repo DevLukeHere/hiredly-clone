@@ -9,7 +9,7 @@ import { useJob } from "../_hooks/useJob";
 
 export default function JobHeader() {
   const { job, isLoading, isError } = useJob(
-    "e7fa3646-ed88-4b2d-ab27-52cd40a31b59",
+    "e7fa3646-ed88-4b2d-ab27-52cd40a31b59"
   );
 
   console.log("job:", job);

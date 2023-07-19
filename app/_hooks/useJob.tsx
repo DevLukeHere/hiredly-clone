@@ -4,7 +4,7 @@ import { request } from "graphql-request";
 const fetcher = (query: string) =>
   request(
     "https://staging-wobbjobs.hiredly.com/api/job_seeker/v1/graphql",
-    query,
+    query
   );
 
 export function useJob(id: string) {
@@ -71,9 +71,9 @@ export function useJob(id: string) {
         }
       }
     }`,
-    fetcher,
+    fetcher
   );
-  
+
   return {
     // TODO: Declare type for job response
     // @ts-ignore

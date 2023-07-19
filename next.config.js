@@ -7,16 +7,16 @@ const nextConfig = {
         protocol: "https",
         hostname: "data-staging.wobbjobs.com",
         port: "",
-        pathname: "/companies/**"
+        pathname: "/companies/**",
       },
       {
         protocol: "https",
         hostname: "assets.wobbjobs.com",
         port: "",
-        pathname: "/images/about_us/hiroes-2022/**"
-      }
-    ]
-  }
+        pathname: "/images/about_us/hiroes-2022/**",
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;
