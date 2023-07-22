@@ -1,4 +1,4 @@
-// Reusable functions for client side components goes here
+// Reuseable functions for client side components goes here
 
 export function validateName(name: string) {
   const pattern = /^[a-zA-Z\s@/'-]+$/; // Allow only uppercase, lowercase, spaces, and certain special characters for name

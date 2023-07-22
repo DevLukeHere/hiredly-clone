@@ -1,1 +1,1 @@
-// Reusable functions for server side components goes here
+// Reuseable functions for server side components goes here
