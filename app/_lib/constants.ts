@@ -2,7 +2,11 @@
 
 export const genders = ["Male", "Female", "Prefer Not To Say"];
 
-export const languageProficiencies = ["Conversational", "Professional", "Native"];
+export const languageProficiencies = [
+  "Conversational",
+  "Professional",
+  "Native",
+];
 
 export const languages = [
   "Arabic",

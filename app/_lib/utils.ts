@@ -16,17 +16,17 @@ export function validateEmail(email: string) {
 export function validateBirthdate(birthdate: string) {
   // Convert birthdate to a Date object
   const birthdateObj = new Date(birthdate);
-  
+
   // Calculate the current date
   const currentDate = new Date();
-  
+
   // Calculate the minimum and maximum birthdate based on age range
   const minBirthdate = new Date();
   minBirthdate.setFullYear(currentDate.getFullYear() - 99);
-  
+
   const maxBirthdate = new Date();
   maxBirthdate.setFullYear(currentDate.getFullYear() - 16);
-  
+
   // Check if the birthdate is within the valid range
   if (birthdateObj >= minBirthdate && birthdateObj <= maxBirthdate) {
     return true; // Birthdate is valid
