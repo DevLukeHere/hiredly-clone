@@ -5,7 +5,7 @@ import BookmarkButton from "@/app/_components/BookmarkButton";
 import SocialShareButton from "@/app/_components/SocialShareButton";
 import Image from "next/image";
 import Link from "next/link";
-import { useJob } from "../_hooks/useJob";
+import { useJob } from "@/app/_hooks/useJob";
 
 export default function JobHeader() {
   const { job, isLoading, isError } = useJob(

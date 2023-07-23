@@ -1,6 +1,6 @@
 "use client";
 
-import ContainedButton from "./_components/ContainedButton";
+import ContainedButton from "@/app/_components/ContainedButton";
 import Link from "next/link";
 
 export default function GlobalError({

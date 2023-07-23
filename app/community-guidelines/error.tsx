@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import ContainedButton from "../_components/ContainedButton";
+import ContainedButton from "@/app/_components/ContainedButton";
 import Link from "next/link";
 
 export default function Error({

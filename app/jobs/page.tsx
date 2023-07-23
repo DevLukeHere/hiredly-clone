@@ -1,6 +1,6 @@
 "use client";
 
-import { useJobs } from "../_hooks/useJobs";
+import { useJobs } from "@/app/_hooks/useJobs";
 
 export default function Jobs() {
   const useJobsParams = {
