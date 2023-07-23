@@ -18,6 +18,7 @@ export default function Image({ params }: { params: { id: string } }) {
     (
       <div tw="relative flex w-full h-full items-center justify-center">
         <div tw="absolute flex inset-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             // ? To check available CSS properties: https://github.com/vercel/satori#css
             src={"https://" + job?.image + "&w=1200&h=630&auto=format&q=75"}
