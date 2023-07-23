@@ -10,6 +10,9 @@ export const metadata = {
   title: "Find Jobs in Malaysia | Vacancies & Career Opportunities - Hiredly",
   description:
     "Find full-time, remote, work-from-home, and internship career opportunities in Malaysia. Experience easy and fast job search on one of Malaysia's leading job vacancy portals.",
+  verification: [
+    // Add verification ID from Google
+  ],
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
