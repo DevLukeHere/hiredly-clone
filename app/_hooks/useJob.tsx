@@ -10,7 +10,7 @@ const fetcher = (query: string) =>
 export function useJob(id: string) {
   const { data, error, isLoading } = useSWR(
     `{
-      job(id: "${id}") {
+      job(id: ${id}) {
         active
         activeAt
         bookmark

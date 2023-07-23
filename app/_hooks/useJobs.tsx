@@ -18,7 +18,7 @@ const fetcher = (query: string) =>
 export function useJobs(useJobsParams: useJobsParam) {
   const { data, error, isLoading } = useSWR(
     `{
-      jobListsSearchResults(${useJobsParams.query}, last: ${useJobsParams.last}, first: ${useJobsParams.first}, before: "${useJobsParams.startCursor}", after: "${useJobsParams.endCursor}") {
+      jobListsSearchResults(${useJobsParams.query}, last: ${useJobsParams.last}, first: ${useJobsParams.first}, before: ${useJobsParams.startCursor}, after: ${useJobsParams.endCursor}) {
         nodes {
           active
           activeAt
