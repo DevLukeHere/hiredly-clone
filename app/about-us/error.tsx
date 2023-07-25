@@ -21,10 +21,10 @@ export default function Error({
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-800">
+    <div className="flex min-h-screen flex-col items-center justify-center p-24 bg-gradient-to-b from-gray-600 to-gray-900">
       <div className="grid grid-rows-[auto_auto_1fr] items-center gap-8">
         <h1 className="text-tertiary text-center text-4xl capitalize font-bold">
-          {error?.name} - something went wrong!
+          {error?.name} - about us could not be loaded.
         </h1>
         <p className="text-gray-300 text-sm text-center italic">
           {error?.message}
