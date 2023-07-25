@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import NavBar from "@/app/_components/NavBar";
 import Footer from "@/app/_components/Footer";
 import "./globals.css";
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <NavBar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
