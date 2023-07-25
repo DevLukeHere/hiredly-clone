@@ -11,7 +11,7 @@ interface useJobsParam {
 
 const fetcher = (query: string) =>
   request(
-    "https://staging-wobbjobs.hiredly.com/api/job_seeker/v1/graphql",
+    `${process.env.NEXT_PUBLIC_API_DOMAIN}/api/job_seeker/v1/graphql`,
     query
   );
 

@@ -3,14 +3,14 @@ import { request } from "graphql-request";
 
 const fetcher = (query: string) =>
   request(
-    "https://staging-wobbjobs.hiredly.com/api/job_seeker/v1/graphql",
+    `${process.env.NEXT_PUBLIC_API_DOMAIN}/api/job_seeker/v1/graphql`,
     query
   );
 
 export function useJob(id: string) {
   const { data, error, isLoading } = useSWR(
     `{
-      job(id: ${id}) {
+      job(id: "${id}") {
         active
         activeAt
         bookmark
