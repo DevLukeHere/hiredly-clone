@@ -1,7 +1,7 @@
 interface ApplyJobButtonProps {
   disabled: boolean;
   id?: string;
-  onClick?: any; // TODO: Declare proper type for functions
+  onClick?: () => void;
   text: string; // lowercase
 }
 
