@@ -1,5 +1,12 @@
 // Reuseable functions for client side components goes here
 
+import { type ClassValue, clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
 export function validateName(name: string) {
   // Allow only uppercase, lowercase, spaces, and certain special characters for name
   const pattern = /^[a-zA-Z\s@/'-]+$/;
