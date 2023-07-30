@@ -1,4 +1,4 @@
-// Reuseable constant values goes here
+// Reuseable constant values go here
 
 export const genders = ["Male", "Female", "Prefer Not To Say"];
 
