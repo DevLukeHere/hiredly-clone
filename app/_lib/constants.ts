@@ -1,6 +1,6 @@
 // Reuseable constant values go here
 
-export const genders = ["Male", "Female", "Prefer Not To Say"];
+export const genders = ["Male", "Female"];
 
 export const languageProficiencies = [
   "Conversational",
@@ -145,7 +145,7 @@ export const nationalities = [
   "Not Listed",
 ];
 
-export const educationalInstitutions = [
+export const malaysianEducationalInstitutions = [
   "Asia Pacific University of Technology & Innovation (APU)",
   "HELP University",
   "INTI International University",
